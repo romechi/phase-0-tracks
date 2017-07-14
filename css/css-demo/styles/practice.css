@@ -1,0 +1,30 @@
+section#contact-info {
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+section.job {
+  background-color: #e9e5dc;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+ul.list-font-size {
+  font-size: .8em;
+}
+
+section.job::after {
+content: "Look I had a job!";
+color: green;
+}
+
+p::first-letter {
+  color: red;
+}
+
+h2 + p {
+  background-color: pink;
+}
+
+
