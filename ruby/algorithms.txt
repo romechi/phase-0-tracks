@@ -1,0 +1,38 @@
+Robot Elevator
+
+- Open Door for person
+- Close Door
+- Ask person what floor number they want?
+  - Decide if the floor number is above (greater than) or below (less than) your current floor number.
+- Press the button to selected floor number
+- Elevator goes to selected floor number
+- Open door once elevator arrives at selected floor
+- Wait for person to exit elevator
+  - If new person enters elevator ask what number they want (repeat 4-8)
+
+Otherwise:
+  - If elevator is empty close door and wait for next person
+
+
+
+Car_checklist.rb
+
+- Unlock car
+- Check outside of car for body damage
+- Check car tires for proper inflation
+- Open trunk
+- Put items inside of trunk
+- Close trunk
+- Open car door
+- Sit in car
+- Close car door
+- Put on seat belt
+- Check side mirrors for proper placement
+- Check review mirror for proper placement
+- Turn on car engine
+- Check fuel level
+- Check for any warning or error lights
+  - If warnings are returned check the car for error and fix
+  - If no warnings are returned the car is good to drive
+- Put destination address into GPS system
+- Begin to drive
