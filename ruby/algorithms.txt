@@ -17,11 +17,11 @@ Otherwise:
 
 Car_checklist.rb
 
-Unlock car
-Check outside of car for body damage
-Check car tires for proper inflation
-Open trunk
-Put items inside of trunk
+- Unlock car
+- Check outside of car for body damage
+- Check car tires for proper inflation
+- Open trunk
+- Put items inside of trunk
 - Close trunk
 - Open car door
 - Sit in car
