@@ -4,36 +4,49 @@
 # When there's more than one suspect who could have
 # committed the crime, add additional calls to prove it.
 
-# "iNvEsTiGaTiOn".<???>
+m_1 = "iNvEsTiGaTiOn".swapcase
+puts m_1
 # => “InVeStIgAtIoN”
 
-# "zom".<???>
+m_2 = "zom".insert(1, "o")
+puts m_2
 # => “zoom”
 
-# "enhance".<???>
-# => "    enhance    "
+m_3 = "enhance".center(10)
+puts m_3
+# => "  enhance  "
 
-# "Stop! You’re under arrest!".<???>
+m_4 = "Stop! You’re under arrest!".upcase
+puts m_4
 # => "STOP! YOU’RE UNDER ARREST!"
 
-# "the usual".<???>
-#=> "the usual suspects"
-
-# " suspects".<???>
+m_5 = "the usual".concat("suspects")
+puts m_5
 # => "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
+m_6 = "suspects".prepend("the usual")
+puts m_6
+# => "the usual suspects"
+
+m_7 = "The case of the disappearing last letter".chop
+puts m_7
 # => "The case of the disappearing last lette"
 
-# "The mystery of the missing first letter".<???>
+m_8 = "The mystery of the missing first letter".slice(1..-1)
+puts m_8
 # => "he mystery of the missing first letter"
 
-# "Elementary,    my   dear        Watson!".<???>
+m_9 = "Elementary,    my   dear        Watson!".squeeze
+puts m_9
 # => "Elementary, my dear Watson!"
 
-# "z".<???>
-# => 122 
+m_10 = "z".ord
+puts m_10
+# => 122
 # (What is the significance of the number 122 in relation to the character z?)
+# The ascii charater set for lower case z is equal to 122.
 
-# "How many times does the letter 'a' appear in this string?".<???>
+m_11 = "How many times does the letter 'a' appear in this string?".count("a")
+puts m_11
 # => 4
+
