@@ -13,3 +13,6 @@ A commit is a short message about the recent change(s) attached to a file when u
 
 * What is a merge conflict?
 A merge conflict happens when code/file(s) have changed within branch/master with the same name are merged back together and causes a conflict.
+
+///
+some minor changes
